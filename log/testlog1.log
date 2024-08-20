@@ -61,3 +61,93 @@
 2024-07-31 19:35:04,083 [main] INFO CPB Stage - click Admin Mode
 2024-07-31 19:35:07,246 [main] INFO CPB Stage - click on New Custom Option
 2024-07-31 19:35:07,512 [main] INFO CPB Stage - test failed
+2024-08-19 20:34:39,205 [main] INFO CPB Stage - open staging site
+2024-08-19 20:34:39,235 [main] INFO CPB Stage - switch to iFrame
+2024-08-19 20:34:42,797 [main] INFO CPB Stage - click Edit
+2024-08-19 20:34:42,833 [main] INFO CPB Stage - click Admin Mode
+2024-08-19 20:34:45,461 [main] INFO CPB Stage - click on New Custom Option
+2024-08-19 20:34:45,768 [main] INFO CPB Stage - test failed
+2024-08-20 11:16:44,130 [main] INFO CPB Stage - open staging site
+2024-08-20 12:02:35,584 [main] INFO CPB Stage - open staging site
+2024-08-20 12:02:35,612 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:02:35,662 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:03:23,590 [main] INFO CPB Stage - open staging site
+2024-08-20 12:03:23,616 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:03:23,662 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:03:23,779 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:03:49,891 [main] INFO CPB Stage - open staging site
+2024-08-20 12:03:49,918 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:03:49,965 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:03:50,052 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:03:50,085 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:03:50,113 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:08:39,106 [main] INFO CPB Stage - open staging site
+2024-08-20 12:08:39,135 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:08:39,188 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:08:39,282 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:08:39,313 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:08:39,339 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:14:17,160 [main] INFO CPB Stage - open staging site
+2024-08-20 12:14:17,188 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:14:17,238 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:14:17,333 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:14:17,365 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:14:17,390 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:17:13,442 [main] INFO CPB Stage - open staging site
+2024-08-20 12:17:13,466 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:17:13,515 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:17:13,608 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:17:13,637 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:17:13,664 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:17:36,591 [main] INFO CPB Stage - open staging site
+2024-08-20 12:17:36,616 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:17:36,662 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:17:36,754 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:17:36,784 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:17:36,809 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:20:21,992 [main] INFO CPB Stage - open staging site
+2024-08-20 12:20:22,023 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:20:22,073 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:20:22,171 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:20:22,202 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:20:22,226 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:21:33,850 [main] INFO CPB Stage - open staging site
+2024-08-20 12:21:33,876 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:21:33,923 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:21:34,013 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:21:34,043 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:21:34,071 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:21:38,128 [main] INFO CPB Stage - product image is uploaded
+2024-08-20 12:21:42,164 [main] INFO CPB Stage - button create new product is clicked
+2024-08-20 12:21:46,768 [main] INFO CPB Stage - click Admin Mode
+2024-08-20 12:21:46,986 [main] INFO CPB Stage - test failed
+2024-08-20 12:31:01,952 [main] INFO CPB Stage - open staging site
+2024-08-20 12:31:01,980 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:31:02,030 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:31:02,127 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:31:02,157 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:31:02,183 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:31:06,246 [main] INFO CPB Stage - product image is uploaded
+2024-08-20 12:31:10,299 [main] INFO CPB Stage - button create new product is clicked
+2024-08-20 12:31:14,377 [main] INFO CPB Stage - click Admin Mode
+2024-08-20 12:31:18,986 [main] INFO CPB Stage - test failed
+2024-08-20 12:32:00,746 [main] INFO CPB Stage - open staging site
+2024-08-20 12:32:00,770 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:32:00,817 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:32:00,904 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:32:00,933 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:32:00,959 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:32:05,016 [main] INFO CPB Stage - product image is uploaded
+2024-08-20 12:32:09,075 [main] INFO CPB Stage - button create new product is clicked
+2024-08-20 12:32:13,149 [main] INFO CPB Stage - click Admin Mode
+2024-08-20 12:32:17,794 [main] INFO CPB Stage - test failed
+2024-08-20 12:34:03,947 [main] INFO CPB Stage - open staging site
+2024-08-20 12:34:03,972 [main] INFO CPB Stage - switch to iFrame
+2024-08-20 12:34:04,021 [main] INFO CPB Stage - button <create new product> is clicked
+2024-08-20 12:34:04,112 [main] INFO CPB Stage - product title is filled
+2024-08-20 12:34:04,142 [main] INFO CPB Stage - product description is filled
+2024-08-20 12:34:04,167 [main] INFO CPB Stage - product price is filled
+2024-08-20 12:34:08,226 [main] INFO CPB Stage - product image is uploaded
+2024-08-20 12:34:08,248 [main] INFO CPB Stage - button create new product is clicked
+2024-08-20 12:34:12,300 [main] INFO CPB Stage - click Admin Mode
+2024-08-20 12:34:16,459 [main] INFO CPB Stage - test passed
