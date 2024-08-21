@@ -32,6 +32,8 @@ public class CustomProducts {
     @CacheLookup
     WebElement adminMode;
 
+// create new product - a standart way
+
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/h2/div/button/span")
     @CacheLookup
     WebElement createNewProduct;
@@ -48,7 +50,7 @@ public class CustomProducts {
     @CacheLookup
     WebElement productPrice;
 
-// copy XPath; accepts jpeg, png, gif
+    // copy XPath; accepts jpeg, png, gif
     @FindBy(xpath = "//*[@id=\"product-builder\"]/div/div/div/div/div/div/div/div[2]/div[3]/div/input")
     @CacheLookup
     WebElement productImage;
@@ -56,6 +58,37 @@ public class CustomProducts {
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div/div/div/div/div[3]/div/div[1]/button")
     @CacheLookup
     WebElement submitNewProduct;
+
+//  create new product - upload json file
+
+    @FindBy(xpath = "//*[@id=\"product-builder\"]/div/div/div/div/div/div/div/div[2]/div[1]/label/span[1]/div/div[1]")
+    @CacheLookup
+    WebElement clickImportDataFromAnotherProduct;
+
+    @FindBy(xpath = "//*[@id=\"product-builder\"]/div/div/div/div/div/div/div/div[2]/div[1]/div/div/div[2]/div[2]/div[2]/div/div/input")
+    @CacheLookup
+    WebElement jsonUpload;
+
+    @FindBy(xpath = "/html/body/div[2]/div/div/div/div/div/div/div/div[2]/div[1]/div/div/div[2]/div[2]/div[4]/button/span/span")
+    @CacheLookup
+    WebElement fillDataButton;
+
+    @FindBy(xpath = "//*[@id=\"product-builder\"]/div[1]/div/div/div[1]/div[2]/button[3]")
+    @CacheLookup
+    WebElement saveProductButton;
+
+// clone a product
+    @FindBy(xpath = " /html/body/div[2]/div/div/div/div[2]/div/div/ul/li[3]/div/div[2]/div[3]/div")
+    @CacheLookup
+    WebElement cloneProduct;
+
+    @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div/div/ul/li[4]/div/div[2]/div[4]/div")
+    @CacheLookup
+    WebElement deleteProduct;
+
+    @FindBy(xpath = "/html/body/div[4]/div/div[6]/button[1]")
+    @CacheLookup
+    WebElement confirmDeleteProduct;
 
     public void switchToIFrame() {
         driver.switchTo().frame(iFrame);
@@ -71,6 +104,8 @@ public class CustomProducts {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", adminMode);
     }
+
+// create new product - a standart way
 
     public void clickCreateNewProduct(){
         wait.until(ExpectedConditions.elementToBeClickable(createNewProduct));
@@ -99,9 +134,53 @@ public class CustomProducts {
         js.executeScript("arguments[0].click();", submitNewProduct);
     }
 
+// create new product - json upload
 
+    public void clickImportDataFromAnotherProduct(){
+        wait.until(ExpectedConditions.elementToBeClickable(clickImportDataFromAnotherProduct));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", clickImportDataFromAnotherProduct);
+    }
 
+    public void sendKeysJsonUpload(){
+        jsonUpload.sendKeys("/Users/Iaroslava/Downloads/8286148526375-upload_test.json");
+    }
 
+    public void clickFillDataButton() {
+        wait.until(ExpectedConditions.visibilityOf(fillDataButton));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", fillDataButton);
+    }
+
+    public void sendKeysProductTitleJson(){
+        productTitle.sendKeys(" Finta");
+    }
+
+    public void clickSaveProduct() {
+        wait.until(ExpectedConditions.visibilityOf(saveProductButton));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", saveProductButton);
+    }
+
+//  clone a product
+    public void clickCloneProduct() {
+        wait.until(ExpectedConditions.visibilityOf(cloneProduct));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", cloneProduct);
+    }
+
+    public void clickDeleteProduct() {
+        wait.until(ExpectedConditions.visibilityOf(deleteProduct));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", deleteProduct);
+    }
+
+    public void clickConfirmDelete() {
+        wait.until(ExpectedConditions.visibilityOf(confirmDeleteProduct));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", confirmDeleteProduct);
+    }
 
 }
+
 

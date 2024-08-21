@@ -151,3 +151,17 @@
 2024-08-20 12:34:08,248 - CPB Stage -INFO - button create new product is clicked
 2024-08-20 12:34:12,300 - CPB Stage -INFO - click Admin Mode
 2024-08-20 12:34:16,459 - CPB Stage -INFO - test passed
+2024-08-20 19:51:12,620 - CPB Stage -INFO - open staging site
+2024-08-20 19:51:12,653 - CPB Stage -INFO - switch to iFrame
+2024-08-20 19:51:15,274 - CPB Stage -INFO - product is cloned
+2024-08-20 19:51:20,885 - CPB Stage -INFO - delete a cloned product
+2024-08-20 19:54:24,674 - CPB Stage -INFO - open staging site
+2024-08-20 19:54:24,707 - CPB Stage -INFO - switch to iFrame
+2024-08-20 19:54:27,360 - CPB Stage -INFO - product is cloned
+2024-08-20 19:54:32,478 - CPB Stage -INFO - delete a cloned product
+2024-08-20 20:00:12,152 - CPB Stage -INFO - open staging site
+2024-08-20 20:00:12,186 - CPB Stage -INFO - switch to iFrame
+2024-08-20 20:00:15,332 - CPB Stage -INFO - product is cloned
+2024-08-20 20:00:21,458 - CPB Stage -INFO - delete a cloned product
+2024-08-20 20:00:21,494 - CPB Stage -INFO - delete a clone is confirmed
+2024-08-20 20:00:21,609 - CPB Stage -INFO - test failed
