@@ -78,7 +78,8 @@ public class CustomProducts {
     WebElement saveProductButton;
 
 // clone a product
-    @FindBy(xpath = " /html/body/div[2]/div/div/div/div[2]/div/div/ul/li[3]/div/div[2]/div[3]/div")
+
+    @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div/div/ul/li[3]/div/div[2]/div[3]/div")
     @CacheLookup
     WebElement cloneProduct;
 
@@ -89,6 +90,40 @@ public class CustomProducts {
     @FindBy(xpath = "/html/body/div[4]/div/div[6]/button[1]")
     @CacheLookup
     WebElement confirmDeleteProduct;
+
+//  export json file
+
+    @FindBy(xpath = "//*[@id=\"product-builder\"]/div/div/div/div[2]/div/div/ul/li[1]/div/div[2]/div[2]")
+    @CacheLookup
+    WebElement editProduct;
+
+    @FindBy(xpath = "/html/body/div[2]/div[1]/div/div/div[1]/div[1]/button[2]")
+    @CacheLookup
+    WebElement settingsButton;
+
+    @FindBy(xpath = "//*[@id=\"Panel-0\"]/div/div/div[7]/div[1]/div/div[1]")
+    @CacheLookup
+    WebElement clickImportData;
+
+    @FindBy(xpath = "/html/body/div[3]/div[4]/div/div/div/div[2]/div/div/div/div[2]/div/div/div[7]/div[1]/div/div[2]/div[1]/div[2]/label/span[1]/div")
+    @CacheLookup
+    WebElement selectExportCheckbox;
+
+    @FindBy(xpath = "/html/body/div[3]/div[4]/div/div/div/div[2]/div/div/div/div[2]/div/div/div[7]/div[1]/div/div[2]/div[3]/button")
+    @CacheLookup
+    WebElement clickDownloadJson;
+
+    @FindBy(xpath = "//*[@id=\"product-builder\"]/div/div/div/div[2]/div/div/ul/li[3]/div/div[2]/div[1]/a")
+    @CacheLookup
+    WebElement previewProduct;
+
+    @FindBy(xpath = "//*[@id=\"password\"]")
+    @CacheLookup
+    WebElement passwordStore;
+
+    @FindBy(xpath = "/html/body/div/div[2]/div[2]/form/button")
+    @CacheLookup
+    WebElement clickEnterButton;
 
     public void switchToIFrame() {
         driver.switchTo().frame(iFrame);
@@ -162,7 +197,7 @@ public class CustomProducts {
         js.executeScript("arguments[0].click();", saveProductButton);
     }
 
-//  clone a product
+    //  clone a product
     public void clickCloneProduct() {
         wait.until(ExpectedConditions.visibilityOf(cloneProduct));
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -181,6 +216,52 @@ public class CustomProducts {
         js.executeScript("arguments[0].click();", confirmDeleteProduct);
     }
 
+    //    download json file
+    public void clickEditProduct() {
+        wait.until(ExpectedConditions.visibilityOf(editProduct));
+        editProduct.click();
+    }
+
+    public void clickSettings() {
+        wait.until(ExpectedConditions.elementToBeClickable(settingsButton));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", settingsButton);
+    }
+
+    public void clickImportData() {
+        wait.until(ExpectedConditions.visibilityOf(clickImportData));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", clickImportData);
+    }
+
+    public void clickExportData() {
+        wait.until(ExpectedConditions.visibilityOf(selectExportCheckbox));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", selectExportCheckbox);
+    }
+
+    public void clickDownload() {
+        wait.until(ExpectedConditions.visibilityOf(clickDownloadJson));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", clickDownloadJson);
+    }
+
+    //    preview product
+    public void clickPreviewProduct() {
+        wait.until(ExpectedConditions.visibilityOf(previewProduct));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", previewProduct);
+    }
+
+    public void sendKeysPassword(){
+        passwordStore.sendKeys("12345");
+    }
+
+    public void clickEnter() {
+        wait.until(ExpectedConditions.visibilityOf(clickEnterButton));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].click();", clickEnterButton );
+    }
+
+
 }
-
-
